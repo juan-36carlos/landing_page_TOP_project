@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: "Roboto", serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER STYLES START */
+.header {
+    background-color: #1f2937;
+}
+
+/* ======== header-logo-links STYLES ======== */
+.header-logo-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
+.links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+/* ======== header-logo-links STYLES END ======== */
+
+
+/* ======== header-content STYLES ======== */
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.title-sub, 
+.header-image {
+    width: 500px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.sign-up {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 600;
+    background: #3b82f6;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 8px;
+    
+}
+
+/* ======== header-content STYLES END ======== */
+
+/* HEADER STYLES END */
+
+
+/* ======== SHARED STYLES ======== */
+.links a,
+.subtitle {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+/* ======== SHARED STYLES END======== */

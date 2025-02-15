@@ -7,7 +7,13 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    gap: 24px;
+}
+
+p, 
+h1, 
+h2, 
+h3 {
+    margin: 0;
 }
 
 /* HEADER STYLES START */
@@ -75,6 +81,7 @@ body {
     padding: 10px 30px;
     border: 0;
     border-radius: 8px;
+
     
 }
 
@@ -93,11 +100,11 @@ body {
 
 
 /* ======== info-container STYLES ======== */
-
 .info-container {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    padding: 30px;
 }
 
 .info-header {
@@ -128,12 +135,10 @@ body {
 .img-subtext, h2 {
     text-align: center;
 }
-
 /* ======== info-container STYLES END ======== */
 
 
 /* ======== quotation STYLES ======== */
-
 div:has(> blockquote) {
     background-color: #E5E7EB;
     padding: 24px;
@@ -156,6 +161,33 @@ blockquote p:nth-child(2) {
     font-weight: bold;
     padding-right: 30px;
 }
-
-
 /* ======== quotation STYLES END ======== */
+
+
+/* ======== action-container STYLES ======== */
+.action-container {
+    padding: 40px 0;
+}
+
+.action-call {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #3b82f6;
+    justify-content: space-evenly;
+    padding: 40px 20px;
+    border-radius: 8px;
+
+}
+
+.content {
+    color: #F9FAF8;
+}
+
+.bt-action-call {
+    border: solid #F9FAF8;
+}
+
+
+
+/* ======== action-container STYLES END ======== */

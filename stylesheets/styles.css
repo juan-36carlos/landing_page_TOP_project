@@ -7,6 +7,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    gap: 24px;
 }
 
 /* HEADER STYLES START */
@@ -50,7 +51,7 @@ body {
     justify-content: center;
 }
 
-.title-sub {
+.title-subtext {
     width: 488px;
 }
 
@@ -61,13 +62,10 @@ body {
     margin: 10px 0;
 }
 
-.subtitle {
+.subtext {
     padding-right: 24px;
 }
 
-p {
-    margin: 10px 0;
-}
 
 .sign-up {
     color: #F9FAF8;
@@ -87,8 +85,77 @@ p {
 
 /* ======== SHARED STYLES ======== */
 .links a,
-.subtitle {
+.subtext {
     font-size: 18px;
     color: #E5E7EB;
 }
 /* ======== SHARED STYLES END======== */
+
+
+/* ======== info-container STYLES ======== */
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.wrapper-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.img-subtext-container {
+    max-width: 200px;
+}
+
+.illustration {
+    border-radius: 14px;
+}
+
+.img-subtext {
+    font-size: 18px;
+    color: #6d747d;
+}
+
+.img-subtext, h2 {
+    text-align: center;
+}
+
+/* ======== info-container STYLES END ======== */
+
+
+/* ======== quotation STYLES ======== */
+
+div:has(> blockquote) {
+    background-color: #E5E7EB;
+    padding: 24px;
+}
+
+blockquote {
+    margin: 24px auto;
+    max-width: 600px;
+}
+
+.quote-text {
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1f2937;
+}
+
+blockquote p:nth-child(2) {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+
+/* ======== quotation STYLES END ======== */

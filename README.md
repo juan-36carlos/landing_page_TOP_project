@@ -9,3 +9,6 @@ html
 css
 flexbox
 
+
+Images in landing page project courtesy of picsum.photos.
+

@@ -16,23 +16,25 @@ h3 {
     margin: 0;
 }
 
-/* HEADER STYLES START */
-.header {
+/* HEADER FOOTER SHARED STYLES START */
+
+.header, .footer {
     background-color: #1f2937;
-    padding-bottom: 48px;
+    color: #F9FAF8;
 }
+
+
+/* HEADER FOOTER  SHARED STYLES END */
 
 /* ======== header-logo-links STYLES ======== */
 .header-logo-links {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 48px;
 }
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
 }
 
 
@@ -64,12 +66,11 @@ h3 {
 .title {
     font-size: 48px;
     font-weight: 900;
-    color: #F9FAF8;
-    margin: 10px 0;
 }
 
 .subtext {
     padding-right: 24px;
+    padding-bottom: 10px;
 }
 
 
@@ -87,10 +88,15 @@ h3 {
 
 /* ======== header-content STYLES END ======== */
 
-/* HEADER STYLES END */
+
 
 
 /* ======== SHARED STYLES ======== */
+.header,
+.header-logo-links {
+    padding-bottom: 48px;
+}
+
 .links a,
 .subtext {
     font-size: 18px;
@@ -188,6 +194,17 @@ blockquote p:nth-child(2) {
     border: solid #F9FAF8;
 }
 
-
-
 /* ======== action-container STYLES END ======== */
+
+
+/* ======== Footer STYLES ======== */
+.footer {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* ======== Footer STYLES END ======== */
